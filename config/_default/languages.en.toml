@@ -11,12 +11,12 @@ title = "khakai"
    logo = "img/logo.png"
    secondaryLogo = "img/secondary-logo.png"
    description = "My awesome website"
-   copyright = "Copy, _right?_ :thinking_face:"
+  # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
    name = "khakai"
-   image = "img/blowfish_logo.png"
-   headline = "I'm only human"
+   image = "img/cover.jpg"
+   headline = "Red teamer | CTF player | Only a human"
    bio = "A little bit about you"
    links = [
      { email = "mailto:lentinemugalo@gmail.com" },
@@ -58,7 +58,7 @@ title = "khakai"
 #     { tiktok = "https://tiktok.com/@username" },
 #     { tumblr = "https://username.tumblr.com" },
 #     { twitch = "https://twitch.tv/username" },
-     { twitter = "https://twitter.com/khakai" },
+     { twitter = "https://twitter.com/its_hakai_" },
 #     { x-twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
