@@ -193,16 +193,9 @@ We have a sha1 salted hash
 > * $d is a parameter or iteration count.
 > * $uP0_QaVBpDWFeo8-dRzDqRwXQ2I is the salt which we will be decoding
 
-To crack this with hashcat we first need to decode it and convert it to hex. Let's do that with cyberchef.
 
-![img-description](5.jpg)
+We used the following python code to crack the hashed password.
 
-
-This is the hash we will be cracking
-```
-b8fd3f41a541a435857a8f3e751cc3a91c174362:d
-```
-We used the following python code to crack the hash.
 ```
 import hashlib
 import base64
