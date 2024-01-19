@@ -197,8 +197,9 @@ To crack this with hashcat we first need to decode it and convert it to hex. Let
 
 ![img-description](5.jpg)
 
+
+This is the hash we will be cracking
 ```
-This is the hash we will be cracking: 
 b8fd3f41a541a435857a8f3e751cc3a91c174362:d
 ```
 We used the following python code to crack the hash.
