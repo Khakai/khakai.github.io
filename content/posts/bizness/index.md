@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bizness
-date: '2024-01-12'
+date: '2024-01-18'
 description: "Bizness is an easy linux machine from HTB:Savage Lands Season 4"
 categories: [HTB]
 ---
@@ -54,7 +54,7 @@ sudo nano /etc/hosts
 
 Then proceed to load the website.  
 
-![img-description](content\img\bizness\1.jpg)
+![img-description](1.jpg)
 
 The website does not contain a lot of information, so we use ffuf to find hidden directories. 
 
@@ -100,7 +100,7 @@ control                 [Status: 200, Size: 34633, Words: 10468, Lines: 492, Dur
 
 We find a directory called control but it appears to be a dead end. We use ffuf again to find if the directory has other hidden directories within it. 
 
-![img-description](content\img\bizness\2.jpg)
+![img-description](2.jpg)
 
 ```shell
 $ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u https://bizness.htb/control/FUZZ -fw 10468
@@ -134,7 +134,7 @@ view                    [Status: 200, Size: 9308, Words: 913, Lines: 141, Durati
 
 The underlying Apache OFBiz version of the logi page is 18.12. This version is susceptible to a command injection vulnerability documented under CVE-2023-51467 (https://vulncheck.com/blog/ofbiz-cve-2023-51467). 
 
-![img-description](content\img\bizness\3.jpg)
+![img-description](3.jpg)
 
 we craft our payload to get a reverse shell as stated in this [Article]((https://vulncheck.com/blog/ofbiz-cve-2023-51467))
 
@@ -154,7 +154,7 @@ ofbiz@bizness:/opt/ofbiz$
 ```
 
 After running linpeas we get some interesting derby database files 
-![img-description](content\img\bizness\4.jpg)
+![img-description](4.jpg)
 
 The files are stored in the following directory.
 ```
@@ -195,7 +195,7 @@ We have a sha1 salted hash
 
 To crack this with hashcat we first need to decode it and convert it to hex. Let's do that with cyberchef.
 
-![img-description](content\img\bizness\5.jpg)
+![img-description](5.jpg)
 
 ```
 cat hash
@@ -233,4 +233,4 @@ with open(wordlist, 'r', encoding='latin-1') as f:
 After running the code, we were able to crack the hash, obtain the password and successfully escalate as root!
 
 
-![img-description](content\img\bizness\6.jpg)
+![img-description](6.jpg)
