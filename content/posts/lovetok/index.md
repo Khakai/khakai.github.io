@@ -9,7 +9,7 @@ categories: [HTB]
 > **[LoveTok](https://app.hackthebox.com/challenges/lovetok)** is an easy web exploitation challenge which makes use web shells to extract sensitive data from a web server.
 
 ## Walkthrough
-The lab provides an ip address and port number for the target host. Upon loading it on my browsere, I was directed to the LoveTok website.
+The LoveTok website.
 ![img-description](1.jpg)
 
 The website does not have much information besides a button at the bottom of the page. Upon clicking the button, I noticed that the URL changed. 
@@ -36,7 +36,7 @@ I found the following web shell payload:
 ```
 It uses the system() function to execute commands that are being passed through ‘cmd’ HTTP request GET parameter.
 
-I adjusted the payload, to list all files and directories in the root directory of the web server. 
+I adjusted the payload to list all files and directories in the root directory of the web server. 
 ```shell
  ${system($_GET[cmd])}&cmd=ls /
 ```
