@@ -6,7 +6,7 @@ description: "LoveTok is one of the easy web exploitation challenges on HTB"
 categories: [HTB]
 ---
 
-> **[LoveTok](https://app.hackthebox.com/challenges/lovetok)** is an easy web exploitation challenge which makes use web shells to extract sensitive data from a web server.
+> **[LoveTok](https://app.hackthebox.com/challenges/lovetok)** is an easy web exploitation challenge on HTB which makes use web shells to extract sensitive data from a web server.
 
 ## Walkthrough
 The LoveTok website.
