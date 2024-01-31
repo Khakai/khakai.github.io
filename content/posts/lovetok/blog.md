@@ -14,10 +14,10 @@ categories: [HTB]
 We are given the ip address and port number of the target host, which we load on our browser. We are directed to the LoveTok wesite which seems to contain nothing much besides a button at the bottom of the page. 
 ![img-description](1.jpg)
 
-When we first click on the button, nothing seems to have changed but on taking a closer look, the url or the website has a slight change. (http://94.237.62.195:53416/?format=r)
+When we first click on the button, nothing seems to have changed but on taking a closer look, the URL or the website has a slight change. (http://94.237.62.195:53416/?format=r)
 ![img-description](2.jpg)
 
-I tried to mess around with the r value of the url by changing it to different system commands and the output on the website kept on changing. 
+I tried to mess around with the r value of the URL by changing it to different system commands and the output on the website kept on changing. 
 ![img-description](3.jpg)
 
 I then proceeded to look at the downloaded files of the machine and found some interesting code in the Router.php file. The code explain a a basic routing mechanism for a PHP application, allowing developers to define routes and corresponding controller functions or methods to handle incoming requests.
@@ -25,7 +25,7 @@ I then proceeded to look at the downloaded files of the machine and found some i
 A specific section of the code stood out to me.
 ![img-description](4.jpg)
 
-It handles a scenario where a segment in the route pattern is a placeholder {param}, indicating that a parameter value is expected in that segment of the URL. If the current segment is an empty string, then it means the parameter value of the corresponding screen is missing and the scrip aborts with a error 404 ststus code. 
+It handles a scenario where a segment in the route pattern is a placeholder {param}, indicating that a parameter value is expected in that segment of the URL. If the current segment is an empty string, then it means the parameter value of the corresponding screen is missing and the script aborts with a error 404 status code. 
 
 This means that we can get a webshell payload that can bypass this conditional check, exploit the command injection vulnerability to execute arbitrary commands on the server and ultimately allow us to extract sensitive data, which in this case will be the flag.
 
