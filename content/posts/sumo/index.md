@@ -56,7 +56,7 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 117.68 seconds
 ```
 
-From the scan, we identified ssh running on port 21 and http running on port 80.
+From the scan, we identified ssh running on port 22 and http running on port 80.
 
 We proceeded with enumeration on port 80 and got redirected to a website, which didn't have a lot of information.
 ![img-description](1.png)
