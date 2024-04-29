@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sumo
-date: '2024-01-18'
+date: '2024-04-29'
 description: "Sumo is an easy lab on offsec proving grounds labs"
 categories: [offsec]
 ---
