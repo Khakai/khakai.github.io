@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "khakai"
+title = "KHAKAI"
 
 [params]
   displayName = "EN"
@@ -14,7 +14,7 @@ title = "khakai"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-   name = "khakai"
+   name = "KHAKAI"
    image = "img/cover.jpg"
    headline = "Red teamer | CTF player | Only a human"
    bio = "A little bit about you"
