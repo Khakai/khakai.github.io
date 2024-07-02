@@ -10,7 +10,7 @@ categories: [offsec]
 
 > **[Potato](https://portal.offsec.com/labs/play)** is an easy Linux machine on the Offsec Proving Grounds. The challenge involves leveraging a Local File Inclusion (LFI) vulnerability in a web application to obtain user credentials. These credentials are then used to gain access to the target system. Privilege escalation is achieved by exploiting the nice command to gain root access.
 
-
+## ENUMERATION
 Nmap Scan of the target:
 ```shell
 p0s3id0n@kali:~/Machines/offsec/potato$ sudo nmap -sCV -T4 -vv -p- 192.168.217.101
@@ -59,7 +59,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1231.15 seconds
 ```
 
 
-### PORT 2112 ENUMERATION
+#### PORT 2112 ENUMERATION
 FTP Anonymous login creds `anonymous:anonymous`
 Used `ls` to list all files and folders present and found the following:
 ![img-description](5.png)
@@ -75,7 +75,7 @@ Now here I found some interesting html code that had a section of php code
 The first thing I noted there was a default password `potato` which may come in handy later and the username `admin`.
 The rest of the code simply checks if login === 1 indicating a login attempt, then proceed to compare of the username `admin` is true and the password set is true (0), if both conditions are true then the user gets a message containing a link to the dashboard and a cookie is set otherwise the user is sent back to the login page.
 
-### PORT 80 ENUMERATION
+#### PORT 80 ENUMERATION
 Website at a glance
 ![img-description](1.png)
 
