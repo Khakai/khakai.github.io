@@ -4,6 +4,7 @@ title: Boardlight
 date: '2024-07-03'
 description: "Boardlight is an easy Linux machine from HTB Season 5: Anomalies"
 categories: [HTB]
+tags: Linux
 ---
 
 ## MACHINE INFO

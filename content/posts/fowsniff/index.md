@@ -4,6 +4,7 @@ title: Fowsniff CTF
 date: '2024-06-01'
 description: "Fowsniff CTF is a guided boot2root machine on TryHackMe"
 categories: [THM]
+tags: Linux
 ---
 ## MACHINE INFO
 
