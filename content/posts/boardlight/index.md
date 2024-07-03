@@ -135,7 +135,7 @@ crm                     [Status: 200, Size: 6360, Words: 397, Lines: 150, Durati
 :: Progress: [4989/4989] :: Job [1/1] :: 174 req/sec :: Duration: [0:00:39] :: Errors: 0 ::
 ```
 
-
+## EXPLOITATION
 ![img-description](4.png)
 - Used default creds `admin:admin`
 
@@ -160,6 +160,7 @@ Since I had only seen one user `larissa`, I tried using ssh to login as larissa 
 It worked!!User flag pwned!!
 ![img-description](9.png)
 
+## PRIVILEGE ESCALATION
 Now onto privilege escalation.
 I uploaded linpeas to the ssh session 
 
