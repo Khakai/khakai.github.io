@@ -8,7 +8,7 @@ categories: [HTB]
 
 ## MACHINE INFO
 
-> **[Boardlight](https://app.hackthebox.com/machines/603)** is an easy Linux machine on the Offsec Proving Grounds. The challenge involves leveraging a Local File Inclusion (LFI) vulnerability in a web application to obtain user credentials. These credentials are then used to gain access to the target system. Privilege escalation is achieved by exploiting the nice command to gain root access.
+> **[Boardlight](https://app.hackthebox.com/machines/603)** is an easy Linux machine on HTB which involves initial enumeration of web services, exploiting a known vulnerability in Dolibarr, and escalating privileges through an exploit targeting Enlightenment desktop.
 
 ## ENUMERATION
 Nmap scan of target
