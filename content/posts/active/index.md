@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Actuve
+title: Active
 date: '2024-07-04'
 description: "Active is a retired easy Windows machine from HTB"
 categories: [HTB]
