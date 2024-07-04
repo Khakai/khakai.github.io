@@ -4,7 +4,6 @@ title: Potato
 date: '2024-07-01'
 description: "Potato is an easy machine on Offsec Proving Grounds"
 categories: [offsec]
-tags: Linux
 ---
 
 ## MACHINE INFO

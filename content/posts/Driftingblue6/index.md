@@ -4,7 +4,6 @@ title: DriftingBlue6
 date: '2024-05-15'
 description: "Driftingblue6 is an easy lab from Offsec Proving Grounds"
 categories: [offsec]
-tags: Linux
 ---
 ## MACHINE INFO
 

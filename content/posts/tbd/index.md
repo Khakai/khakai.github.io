@@ -4,7 +4,6 @@ title: Actuve
 date: '2024-07-04'
 description: "Active is a retired easy Windows machine from HTB"
 categories: [HTB]
-tags: Windows
 ---
 
 ## MACHINE INFO

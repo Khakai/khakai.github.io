@@ -4,7 +4,6 @@ title: Bizness
 date: '2024-01-18'
 description: "Bizness is an easy linux machine from HTB:Savage Lands Season 4"
 categories: [HTB]
-tags: Linux
 ---
 
 ## MACHINE INFO
