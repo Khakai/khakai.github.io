@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GreenHorn
-date: '2024-25-07'
+date: '2024-07-25'
 description: "GreenHorn is an active easy linux machine on HTB"
 categories: [HTB]
 ---
