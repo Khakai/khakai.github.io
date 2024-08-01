@@ -176,8 +176,8 @@ And we that we are logged in and redirected to a webpage.
 
 ![img-description](2.png)
 
-As per the machine info, the ApacheMQ version is supposed to be vulnerable to unauthorized RCE, so enumeration on the webpage searching for a version disclosure of the service.
-Enumeration of the page led me to the admin page upon clicking on the Manage ActiveMQ broker option where we get the version of the broker is `5.15.15`
+As per the machine info, the ApacheMQ version is vulnerable to unauthorized RCE, so I begun enumeration on the webpage searching for a version disclosure of the service.
+Enumeration of the page led me to the admin page and upon clicking on the Manage ActiveMQ broker option we get the version of the broker is `5.15.15`
 ![img-description](3.png)
 
 A google search on an RCE exploit of the ApacheMQ service led to the following exploit:
