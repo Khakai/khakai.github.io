@@ -184,6 +184,7 @@ A google search on an RCE exploit of the ApacheMQ service led to the following e
 https://github.com/evkl1d/CVE-2023-46604
 
 **BRIEF EXPLANATION OF THE EXPLOIT**
+
 This payload is designed to deserialize a class path XML application context from Spring, which in turn runs a bash command to establish a reverse shell connection to the attacker's machine. This exploit allows an attacker to gain control over the affected server.
 
 For the poc.xml file url:
@@ -193,6 +194,7 @@ For the poc.xml file url:
 ![img-description](4.png)
 
 **USER FLAG**
+
 After running the script, we get a connection on our listener. Stabilize the shell and get the user flag from the home directory.
 ![img-description](5.png)
 
@@ -203,6 +205,7 @@ The current user can execute the following sudo commands without being prompted 
 From the machine info, we get a hint that the Machine replicates a recent Zimbra vulnerability.
 
 **BRIEF EXPLANATION OF ZIMBRA VULNERABILITY**
+
 Certain Zimbra versions allowed an attacker to run Nginx server as root without prompting a user for a password. This also let an attacker to force the Nginx server to run using a custom configuration file. For this particular exploit, the attacker forced the Nginx server to run as root and fetch files that would typically only be accessed by the root user.
 
 More on the exploit is here: https://darrenmartynie.wordpress.com/2021/10/25/zimbra-nginx-local-root-exploit/
