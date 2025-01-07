@@ -87,7 +87,7 @@ Nmap done: 1 IP address (1 host up) scanned in 36.01 seconds
 ```
 
 ### PORT 80 ENUMERATION
-![img-description](1.png)
+![img-description](1.png) 
 Some kind of learning platform. Not much information on the page.
 
 **HIDDEN DIRECTORIES**
