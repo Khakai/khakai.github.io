@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sea
-date: '2025-07-01'
+date: '2025-01-07'
 description: "Sea is an easy Linux machine from HTB Season 6: Heist"
 categories: [HTB]
 ---

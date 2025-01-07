@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PermX
-date: '2025-07-01'
+date: '2025-01-07'
 description: "PermX is an easy Linux machine from HTB Season 6: Heist"
 categories: [HTB]
 ---
