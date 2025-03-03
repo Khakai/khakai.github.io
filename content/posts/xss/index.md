@@ -6,7 +6,7 @@ description: "XSS Vulnerability Research"
 categories: [research]
 ---
 
-## 1. CROSS-SITE SCRIPTING (XSS)
+## CROSS-SITE SCRIPTING (XSS)
 ## INTRODUCTION
 Cross-Site Scripting (XSS) is a client-side vulnerability that allows attackers to inject malicious scripts into web applications. These scripts run in a victim’s browser, enabling attackers to steal sensitive data, hijack user sessions, or perform actions on behalf of the user.
 
