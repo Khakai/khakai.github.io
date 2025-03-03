@@ -1,7 +1,7 @@
 ---
 layout: post
 title: XSS Research
-date: '2024-03-03'
+date: '2025-03-03'
 description: "XSS Vulnerability Research"
 categories: [research]
 ---
