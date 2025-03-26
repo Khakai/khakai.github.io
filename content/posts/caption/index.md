@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Caption
-date: '2024-03-26'
+date: '2025-03-26'
 description: "Caption is a hard Linux machine from HTB Season 6: Heist"
 categories: [HTB]
 ---
