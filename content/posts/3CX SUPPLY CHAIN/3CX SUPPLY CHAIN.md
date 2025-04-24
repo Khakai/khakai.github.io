@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3CX Supply Chain
-date: '2025-24-04'
+date: '2025-04-24'
 description: "3CX Supply Chain is an easy Threat Intelligence Lab from CyberDefenders"
 categories: [HTB]
 ---
