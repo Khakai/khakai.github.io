@@ -88,7 +88,7 @@ From the `Community` tab, there's an entry that shows a report published by Qual
 ![img-description](10.png)
 
 
-### READ MORE ABOUT THE 3CX AUPPLY CHAIN ATTACK HERE
+## READ MORE ABOUT THE 3CX SUPPLY CHAIN ATTACK HERE
 - [ZScaler](https://www.virustotal.com/gui/file/59e1edf4d82fae4978e97512b0331b7eb21dd4b838b850ba46794d9c7a2c0983/detection)
 - [Mandiant](https://cloud.google.com/blog/topics/threat-intelligence/3cx-software-supply-chain-compromise/)
 - [3CX-Software](https://www.3cx.com/)
