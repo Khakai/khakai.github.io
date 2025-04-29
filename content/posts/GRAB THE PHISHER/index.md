@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GRAB THE PHISHER
-date: '2025-04-30'
+date: '2025-04-29'
 description: "Grab The Phisher is an easy Threat Intelligence Lab from CyberDefenders"
 categories: [CyberDefenders]
 ---
