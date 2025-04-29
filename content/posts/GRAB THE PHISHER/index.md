@@ -54,7 +54,8 @@ While the metmask folder contained the `index.html` file for the website (what e
 ![img-description](5.png)
 
 **METAMASK.PHP FILE BREAKDOWN**
-***Metamask*** is a crypto wallet used to store and swap cryptocurrencies. This PHP script will be broken down to 3 parts:
+
+Metamask is a crypto wallet used to store and swap cryptocurrencies. This PHP script will be broken down to 3 parts:
 1. This section of the code makes a request to the SypexGeo API to fetch geolocation data based on the user's IP address.
 2. This comment on the code is signed off by possibly the attacker's details `j1j1b1s@m3r0`
 3. This function `sendTel` sends a message to a specific Telegram chat (utilizing the chat Id and token) using the Telegram Bot API and also logs data from a POST request into a file `log.txt`. 
@@ -84,7 +85,7 @@ The `log.txt` file being used to store stolen information contained `3` seed phr
 ###### Q6: Could you please provide the seed phrase associated with the most recent phishing incident?
 The use of FILE_APPEND on the function `sendTel`'s last line indicates that each new seed phrase submitted by a victim is added to the end of the log.txt file. Therefore, the most recent entry in the file corresponds to the most recent phishing victim.
 ```php
-        @file_put_contents($_SERVER['DOCUMENT_ROOT'].'/log/'.'log.txt', $text, FILE_APPEND);
+ @file_put_contents($_SERVER['DOCUMENT_ROOT'].'/log/'.'log.txt', $text, FILE_APPEND);
 ```
 `log.txt` contained 3 seed phrases with the last seed phrase being: `father also recycle embody balance concert mechanic believe owner pair muffin hockey`
 
