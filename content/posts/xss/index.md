@@ -4,6 +4,7 @@ title: XSS Research
 date: '2025-03-03'
 description: "XSS Vulnerability Research"
 categories: [research]
+tags: [xss]
 ---
 
 ## CROSS-SITE SCRIPTING (XSS)
