@@ -132,7 +132,7 @@ main                    [Status: 200, Size: 9308, Words: 913, Lines: 141, Durati
 view                    [Status: 200, Size: 9308, Words: 913, Lines: 141, Duration: 583ms]
 ```
 
-The underlying Apache OFBiz version of the logi page is 18.12. This version is susceptible to a command injection vulnerability documented under CVE-2023-51467 (https://vulncheck.com/blog/ofbiz-cve-2023-51467). 
+The underlying Apache OFBiz version of the logi page is 18.12. This version is susceptible to a command injection vulnerability documented under [CVE-2023-51467](https://vulncheck.com/blog/ofbiz-cve-2023-51467). 
 
 ![img-description](3.jpg)
 
