@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SecureBank: Chaining SQL Injection and Server-Side Template Injection to Compromise a Node.js Application"
+title: "SecureBank"
 date: 2026-08-02
 description: "A web application security challenge demonstrating how reconnaissance, SQL injection, JWT authentication abuse, and Server-Side Template Injection (SSTI) can be chained to compromise a Node.js application."
 categories: [CTF, Web, NodeJS]
