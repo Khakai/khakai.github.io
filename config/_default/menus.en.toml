@@ -19,11 +19,11 @@
 #  name = "Home"
 #  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
+[[main]]
+  name = "$whoami"
 #  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+  pageRef = "about-me"
+  weight = 20
 
 #[[main]]
 #  name = "example sub-menu 2"
