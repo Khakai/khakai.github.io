@@ -78,7 +78,7 @@ CWES really reinforced that mindset of asking, “Okay, I found this. What does 
 
 It also changed how I approached tooling. Rather than treating Burp Suite and similar tools as things I already “knew,” I started paying more attention to the functionality I'd ignored because my existing workflow technically worked. Turns out technically works and efficient are two very different things.
 
-The course also reinforced something that would come back to haun, I mean, help, me later during CPTS: Keep it simple. Sometimes the path forward isn't a ridiculously clever exploit. Sometimes you've already found everything you need and you're just refusing to connect the dots because you've convinced yourself the answer must be more complicated.
+The course also reinforced something that would come back to haunt, I mean, help, me later during CPTS: Keep it simple. Sometimes the path forward isn't a ridiculously clever exploit. Sometimes you've already found everything you need and you're just refusing to connect the dots because you've convinced yourself the answer must be more complicated.
 
 For someone with at least a little web security experience who wants to get better at understanding application behaviour, exploiting web vulnerabilities, and, most importantly, chaining them together, CWES was very worthwhile for me and gave me the confidence to try bug bounty again, tho I might be late to te party.
 
@@ -171,6 +171,22 @@ Sometimes the better question is: **“What am I actually getting for the money 
 For me, structured access to a large library of content means I can learn beyond whichever certification I'm currently chasing. I can finish a path, realise I'm terrible at something, disappear into modules on that topic, build a lab around it, then come back.
 
 PNPT gave me a valuable experience. HTB Academy better fits the way **I** learn. Your mileage, and your wallet, may vary.
+
+---
+
+## SO, HOW DID I PREPARE?
+
+This might be slightly anticlimactic, but I didn't have an elaborate preparation strategy for any of these exams.
+
+I didn't do a bunch of extra labs specifically for CJCA, CWES or CPTS. For the most part, I worked through the course content and relied on the practical experience I'd already been building through HTB machines, Sherlocks, Academy modules, CTFs and the usual things I was doing anyway.
+
+For **CJCA**, the course content was enough for me. The goal was to revisit the fundamentals rather than prepare for it like some final boss.
+
+For **CWES**, I also stuck mainly to the Academy content. Having some previous web pentesting experience definitely helped, but the course itself covered what I needed for the exam.
+
+For **PNPT**, the Windows and Active Directory work and labs I'd already been doing helped a lot. The bigger preparation lesson for me wasn't finding more labs, it was improving my methodology, documentation and how I approached an engagement as a whole.
+
+And for **CPTS**, again, I didn't disappear into a giant list of “CPTS prep machines.” I had three years of HTB labs, Academy, CTFs and general pentesting practice behind me by that point, alongside everything I'd deliberately worked through earlier in the year.
 
 ---
 
