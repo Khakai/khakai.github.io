@@ -80,7 +80,7 @@ It also changed how I approached tooling. Rather than treating Burp Suite and si
 
 The course also reinforced something that would come back to haunt, I mean, help, me later during CPTS: Keep it simple. Sometimes the path forward isn't a ridiculously clever exploit. Sometimes you've already found everything you need and you're just refusing to connect the dots because you've convinced yourself the answer must be more complicated.
 
-For someone with at least a little web security experience who wants to get better at understanding application behaviour, exploiting web vulnerabilities, and, most importantly, chaining them together, CWES was very worthwhile for me and gave me the confidence to try bug bounty again, tho I might be late to te party.
+For someone with at least a little web security experience who wants to get better at understanding application behaviour, exploiting web vulnerabilities, and, most importantly, chaining them together, CWES was very worthwhile for me and gave me the confidence to try bug bounty again, tho I might be late to the party.
 
 ## PNPT - APPARENTLY, HACKING THE THINGS WASN'T ENOUGH
 Full name: Practical Network Penetration Tester
