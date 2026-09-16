@@ -1,3 +1,11 @@
+---
+layout: post
+title: Cert Maxxing
+date: '2026-09-16'
+description: "Certifications Review"
+categories: [certs]
+---
+
 This year, I collected three Hack The Box certifications and an amount of character development I absolutely did not budget for.
 
 Consider this my tell-all on the HTB CJCA, CWES, and CPTS exams, with a guest appearance from PNPT because, quite frankly, it earned one.
