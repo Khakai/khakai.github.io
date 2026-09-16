@@ -17,7 +17,7 @@ One disclaimer before we begin: this is my experience, not universal truth. Your
 Now that we've established that...
 
 ## REWIND: WHY I EVEN DID THIS?
-We need to go back to 2023. I was maybe six months into cybersecurity when, armed with confidence that was. 
+We need to go back to 2023. I was maybe six months into cybersecurity when, armed with the confidence to sit for CPTS:rofl:. 
 
 I failed TERRIBLY...got zero flags the first time, got 1 on the second try. For a long time, CPTS remained somewhere in the back of my mind. I wanted the rematch, but certification exams cost money, and at the time I hadn't landed a job yet. Fast-forward to 2025 and things looked very different. I became an HTB meetup host and later an ambassador, which came with a few perks, including a Silver Annual subscription. But there was one thing I knew I didn't want to do: repeat 2023. So instead of jumping straight back into CPTS, I decided to be intentional about it. No assuming I knew the basics because I'd been in cybersecurity for a few years. No skipping ahead because something looked familiar. I wanted to build up sequentially.
 
