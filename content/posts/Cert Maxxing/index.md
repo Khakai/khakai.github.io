@@ -32,7 +32,7 @@ CJCA → CWES → PNPT → CPTS.
 
 ### So... why was I cert maxxing?
 ![It's about to go down](thanos-avengers-endgame.gif)
-For one, I had the vouchers. There was absolutely no universe in which I was going to watch perfectly good certification vouchers expire even though I almost did.
+For one, I had the vouchers. There was absolutely no universe where I was going to watch perfectly good certification vouchers expire!! Even though they almost did.
 
 But there was another, more important reason: I realised I learn better with structure.
 
