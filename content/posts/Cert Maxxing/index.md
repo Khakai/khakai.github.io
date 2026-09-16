@@ -188,6 +188,16 @@ For **PNPT**, the Windows and Active Directory work and labs I'd already been do
 
 And for **CPTS**, again, I didn't disappear into a giant list of “CPTS prep machines.” I had three years of HTB labs, Academy, CTFs and general pentesting practice behind me by that point, alongside everything I'd deliberately worked through earlier in the year.
 
+That's not me saying “you don't need extra preparation.”
+
+It's just what worked for me.
+
+If you finish the course and still don't feel confident, there are plenty of great CPTS, CWES and PNPT preparation blogs out there with recommended machines and labs. Read a few, compare what people struggled with, identify your weak areas and practise accordingly.
+
+Don't add seventeen extra labs to your preparation plan simply because someone on the internet said they did seventeen extra labs.
+
+Prepare for your gaps, not somebody else's.
+
 ---
 
 ## WHAT I ACTUALLY GOT OUT OF ALL THIS
